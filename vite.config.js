@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ceh-app',
+  // base: '/ceh-app',
   server: {
     proxy: {
       '/api/anthropic': {
