@@ -1,6 +1,10 @@
 # CEH v12 AI Practice Test — Local Setup
 
+This app was created by my friend Scott Stuehrenberg  
+[His Github Repository](https://github.com/stuecscott/CEH-Practice-Exam)
+
 ## Prerequisites
+
 - Node.js 18+ installed → https://nodejs.org
 
 ## Setup (one time)
@@ -28,6 +32,7 @@ npm run dev
 Then open **http://localhost:5173** in your browser.
 
 ## Notes
+
 - The app calls the Anthropic API directly from the browser using `anthropic-dangerous-direct-browser-access: true`
 - Your API key is only in your local file — never committed or shared
 - Retry logic handles 529 overload errors automatically (4 attempts, 5s–20s backoff)
